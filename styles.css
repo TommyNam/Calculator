@@ -20,20 +20,67 @@ body {
 }
 
 /* Button grid */
-.buttons {
+.buttons-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   row-gap: 10px;
+  column-gap: 10px;
+  padding: 20px;
 }
-
 /* General button style */
+button {
+  font-size: 1.2em;
+  font-weight: bold;
+}
 
 /* Hover effect */
 
+/* Numbers */
+.number {
+  border: 0.1rem solid black;
+  border-radius: 10px;
+}
+
 /* Operator buttons (right column)*/
+.operator {
+  border: 0.1rem solid orange;
+  border-radius: 10px;
+}
 
 /* Utility buttons (top row) */
+#decimal,
+#clear,
+#clearEntry,
+#equals,
+#powerButton {
+  border: 0.1rem solid red;
+  border-radius: 10px;
+}
 
+/* positioning */
+#one.number {grid-column: 1; grid-row: 4;}
+#two.number {grid-column: 2; grid-row: 4;}
+#three.number {grid-column: 3; grid-row: 4;}
+#four.number {grid-column: 1; grid-row: 3;}
+#five.number {grid-column: 2; grid-row: 3;}
+#six.number {grid-column: 3; grid-row: 3;}
+#seven.number {grid-column: 1; grid-row: 2;}
+#eight.number {grid-column: 2; grid-row: 2;}
+#nine.number {grid-column: 3; grid-row: 2;}
+#zero.number {grid-column: 2; grid-row: 5;}
+
+#plus.operator {grid-column: 4; grid-row: 4;}
+#minus.operator {grid-column: 4; grid-row: 3;}
+#divide.operator {grid-column: 4; grid-row: 2;}
+#multiply.operator {grid-column: 4; grid-row: 1;}
+
+#decimal.utility {grid-column: 3; grid-row: 5;}
+#equals.utility {grid-column: 4; grid-row: 5;}
+#powerButton.utility {grid-column: 1; grid-row: 5;}
+#plusMinus.utility {grid-column: 3; grid-row: 1;}
+#clear.utility {grid-column: 1; grid-row: 1;}
+#clearEntry.utility {grid-column: 2; grid-row: 1;}
 
 /* .copyright-footer {
   position: fixed;
