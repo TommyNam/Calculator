@@ -1,0 +1,45 @@
+/* Center calculator on the page */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Calculator container */
+.calculator-container {
+  display: grid;
+  border: 1px solid black;
+  width: 500px;
+  height: 1000px;
+  position: relative;
+}
+
+/* Display area */
+.display {
+}
+
+/* Button grid */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 10px;
+}
+
+/* General button style */
+
+/* Hover effect */
+
+/* Operator buttons (right column)*/
+
+/* Utility buttons (top row) */
+
+
+/* .copyright-footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: white;
+} */
