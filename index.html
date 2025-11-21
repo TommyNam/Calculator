@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,40 +8,36 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <script src="script.js"></script>
 
     <div class="calculator-container">
-      <div class="display">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Simbolo_konoha.svg/2048px-Simbolo_konoha.svg.png"></img>
-        <div class="screen"></div>
-      </div>
-      <div class="buttons-grid">
-        <!-- Numbers -->
-        <button class="number" id="zero">0</button>
-        <button class="number" id="one">1</button>
-        <button class="number" id="two">2</button>
-        <button class="number" id="three">3</button>
-        <button class="number" id="four">4</button>
-        <button class="number" id="five">5</button>
-        <button class="number" id="six">6</button>
-        <button class="number" id="seven">7</button>
-        <button class="number" id="eight">8</button>
-        <button class="number" id="nine">9</button>
+        <input id="display" readonly>
+        <div class="keys">
+          <!-- Numbers -->
+          <button class="number" id="zero" onclick="appendToDisplay('0')">0</button>
+          <button class="number" id="one" onclick="appendToDisplay('1')">1</button>
+          <button class="number" id="two" onclick="appendToDisplay('2')">2</button>
+          <button class="number" id="three" onclick="appendToDisplay('3')">3</button>
+          <button class="number" id="four" onclick="appendToDisplay('4')">4</button>
+          <button class="number" id="five" onclick="appendToDisplay('5')">5</button>
+          <button class="number" id="six" onclick="appendToDisplay('6')">6</button>
+          <button class="number" id="seven" onclick="appendToDisplay('7')">7</button>
+          <button class="number" id="eight" onclick="appendToDisplay('8')">8</button>
+          <button class="number" id="nine" onclick="appendToDisplay('9')">9</button>
 
-        <!-- Operators -->
-        <button class="operator" id="plus">+</button>
-        <button class="operator" id="minus">-</button>
-        <button class="operator" id="divide">÷</button>
-        <button class="operator" id="multiply">x</button>
+          <!-- Operators -->
+          <button class="operator" id="plus" onclick="appendToDisplay('+')">+</button>
+          <button class="operator" id="minus" onclick="appendToDisplay('-')">-</button>
+          <button class="operator" id="divide" onclick="appendToDisplay('/')">÷</button>
+          <button class="operator" id="multiply" onclick="appendToDisplay('*')">x</button>
 
-        <!-- Utility -->
-        <button class="utility" id="decimal">.</button>
-        <button class="utility" id="clear">C</button>
-        <button class="utility" id="clearEntry">CE</button>
-        <button class="utility" id="equals">=</button>
-        <button class="utility" id="powerButton">On/Off</button>
-        <button class="utility" id="plusMinus">+/-</button>
-      </div>
+          <!-- Utility -->
+          <button class="utility" id="decimal" onclick="appendToDisplay('.')">.</button>
+          <button class="utility" id="clear" onclick="backspace()">C</button>
+          <button class="utility" id="clearEntry" onclick="clearEntry()">CE</button>
+          <button class="utility" id="equals" onclick="calculate()">=</button>
+          <button class="utility" id="powerButton" onclick="powerButton()">On/Off</button>
+          <button class="utility" id="plusMinus" onclick="oddEven()">+/-</button>
+        </div>
     </div>
 
     <!-- <footer class="copyright-footer">
