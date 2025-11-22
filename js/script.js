@@ -96,7 +96,7 @@ function calculate() {
   }
 }
 
-let backgroundMusic = new Audio("assets/naruto.mp3");
+let backgroundMusic = new Audio("assets/music/naruto.mp3");
 let isMusicPlaying = false;
 
 function musicButton() {
