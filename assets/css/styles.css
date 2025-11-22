@@ -3,7 +3,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 40px;
   margin: 0;
   background-color: hsl(0, 0%, 95%);
   background-image: url("https://i.pinimg.com/originals/ea/c7/18/eac71819b303a63ae8b57f5a5548daf7.gif");
@@ -240,7 +242,7 @@ button:active {
     padding-top: 100px;
     padding-bottom: 20px;
   }
-  
+
 }
 
 
