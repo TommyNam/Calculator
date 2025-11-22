@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
 
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
   </head>
+
   <body>
+    <header class="calculator-header">
+      <h1> Calculatorgakure </h1> </header>
 
     <div class="calculator-container">
         <input id="display" readonly>
@@ -27,7 +30,7 @@
           <!-- Operators -->
           <button class="operator" id="plus" onclick="appendToDisplay('+')">+</button>
           <button class="operator" id="minus" onclick="appendToDisplay('-')">-</button>
-          <button class="operator" id="divide" onclick="appendToDisplay('÷')">÷</button>
+          <button class="operator" id="divide" onclick="appendToDisplay('/')">÷</button>
           <button class="operator" id="multiply" onclick="appendToDisplay('*')">x</button>
 
           <!-- Utility -->
@@ -35,15 +38,15 @@
           <button class="utility" id="clear" onclick="backspace()">C</button>
           <button class="utility" id="clearEntry" onclick="clearEntry()">CE</button>
           <button class="utility" id="equals" onclick="calculate()">=</button>
-          <button class="utility" id="powerButton" onclick="powerButton()">On/Off</button>
+          <button class="utility" id="musicButton" onclick="musicButton()">♪𝄞𝄢₊˚⊹</button>
           <button class="utility" id="plusMinus" onclick="oddEven()">+/-</button>
         </div>
     </div>
 
-    <!-- <footer class="copyright-footer">
+    <footer class="copyright-footer">
       <p>&copy; 2025 Tommy-Nam</p>
-    </footer> -->
+    </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
   </body>
 </html>
