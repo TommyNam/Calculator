@@ -190,6 +190,7 @@ button:active {
   grid-row: 1;
 }
 
+/* nice to haves*/
 .copyright-footer {
   position: fixed;
   bottom: 10px;
@@ -214,11 +215,12 @@ button:active {
 
 @font-face {
   font-family: "MyCustomFont";
-  src: url("fonts/njnaruto.ttf") format("truetype"),
+  src: url("fonts/njnaruto.ttf") format("truetype");
 }
 
 .calculator-header h1 {
   margin: 0;
+  letter-spacing: 0.5rem;
   font-family: "MyCustomFont", Arial, sans-serif;
   font-size: 2rem;
   color: white;
