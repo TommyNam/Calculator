@@ -226,11 +226,24 @@ button:active {
   font-family: "MyCustomFont", Arial, sans-serif;
   font-size: 2rem;
   color: white;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
     1px 1px 0 black;
 }
 
 /* RESPONSIVE */
+@media (max-width: 1280px) {
+    body {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  
+}
+
+
 @media (max-width: 1024px) {
   body {
     height: auto;
@@ -271,8 +284,8 @@ button:active {
   }
 
   button {
-    width: 70px;
-    height: 70px;
+    width: 90%;
+    height: 100px;
     font-size: 1.8rem;
   }
 
@@ -298,8 +311,10 @@ button:active {
 /* Mobile */
 @media (max-width: 480px) {
   .calculator-header h1 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: 0.2rem;
+    max-width: fit-content;
+    margin: auto;
   }
 
   .calculator-container {
