@@ -12,8 +12,7 @@ Calculator Project
 - Odd/Even Button (Allows numbers to be odd)
 - Music Button (Plays Naruto Main Theme)
 - Clear Entry (Clears display)
-- Clear (Clears last user input || Backspace)
-- 
+- Clear (Clears last user input || Backspace) 
 
 
 ## JS Validations
