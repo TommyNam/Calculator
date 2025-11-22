@@ -36,7 +36,7 @@ https://main.d3rfaaytqbjok8.amplifyapp.com/
 ### Setup (locally):
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/TommyNam/Rock-Paper-Scissors.git](https://github.com/TommyNam/Calculator.git)
+   git clone https://github.com/TommyNam/Calculator.git
 2. **Navigate and Select the correct root directory (Important for correct routing)**
    ```bash
    File -> Open Folder -> Calculator
