@@ -5,6 +5,9 @@ R2H Guided Inquiry Week 7
 ## Project Overview:
 Calculator Project
 
+## Deployment Page: 
+https://main.d3rfaaytqbjok8.amplifyapp.com/
+
 ## Usage
 1. Click a Number 0-9.
 
@@ -49,9 +52,6 @@ Calculator Project
 - Git
 - VSCode (Open Live Server extension)
 
-
-## Deployment Page: 
-https://main.d3rfaaytqbjok8.amplifyapp.com/
 
 
 ### Setup (locally):
