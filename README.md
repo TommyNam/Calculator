@@ -4,6 +4,26 @@ R2H Guided Inquiry Week 7
 ## Project Overview:
 Calculator Project
 
+## Usage
+1. Click a Number 0-9.
+
+2. Choose one of the following operators you wish to use:
+
+`+` for Addition
+
+`-` for Subtraction
+
+`x` for Multiplication
+
+`÷` for Division
+
+3. If you misclicked while creating an equation, you may click `C` to backspace. 
+
+4. Calculate result by clicking `=`.
+
+5. You may continue the equation by clicking another operator or you can click `CE` to clear entry.
+
+
 
 ## Features
 - Operator Buttons (+, -, /, *)
@@ -13,7 +33,7 @@ Calculator Project
 - Music Button (Plays Naruto Main Theme)
 - Clear Entry (Clears display)
 - Clear (Clears last user input || Backspace) 
-
+- User may continue calculating after their results
 
 ## JS Validations
 - No double operators (++ or */ cannot be used)
@@ -23,7 +43,7 @@ Calculator Project
 - Error message if something cant be calculated
 
 
-## Usage Guide (Run Locally)
+## Installation Guide (Run Locally)
 ### Prerequisites:
 - Git
 - VSCode (Open Live Server extension)
